@@ -69,6 +69,7 @@ local.properties
 ######################
 /log/
 /target/
+*/target/
 
 ######################
 # Gradle
@@ -124,6 +125,8 @@ Desktop.ini
 *.*~
 *~
 .merge_file*
+*.releaseBackup
+*.lst
 
 ######################
 # Gradle Wrapper
@@ -139,3 +142,4 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+
