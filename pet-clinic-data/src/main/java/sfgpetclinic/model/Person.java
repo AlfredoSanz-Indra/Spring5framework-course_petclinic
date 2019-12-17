@@ -1,6 +1,4 @@
-package guru.springframework.sfgpetclinic.model;
-
-import javax.persistence.Column;
+package sfgpetclinic.model;
 
 /**
  * @author Alfredo Sanz

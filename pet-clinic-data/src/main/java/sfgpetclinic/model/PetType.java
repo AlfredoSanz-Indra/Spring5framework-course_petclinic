@@ -1,4 +1,4 @@
-package guru.springframework.sfgpetclinic.model;
+package sfgpetclinic.model;
 
 /**
  * @author Alfredo Sanz
@@ -7,4 +7,6 @@ package guru.springframework.sfgpetclinic.model;
 public class PetType {
 
     private String name;
+
+
 }
