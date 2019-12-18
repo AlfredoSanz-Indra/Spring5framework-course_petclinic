@@ -9,9 +9,6 @@ import java.util.Set;
  * @author Alfredo Sanz
  * @time dic. 2019
  **/
-public interface PetService {
+public interface PetService extends CrudService<Pet, Long> {
 
-    Pet findById(Long id);
-    Pet save(Pet pet);
-    Set<Pet> findAll();
 }
