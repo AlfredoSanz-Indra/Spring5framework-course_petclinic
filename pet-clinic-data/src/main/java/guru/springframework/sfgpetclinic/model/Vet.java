@@ -6,8 +6,9 @@ package guru.springframework.sfgpetclinic.model;
  **/
 public class Vet extends Person {
 
+    private Long id;
 
-    public Vet(String firstName, String lastName) {
+    public Vet(String firstName, String lastName, Long id) {
         super(firstName, lastName);
     }
 }

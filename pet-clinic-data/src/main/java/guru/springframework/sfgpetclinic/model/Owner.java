@@ -6,7 +6,11 @@ package guru.springframework.sfgpetclinic.model;
  **/
 public class Owner extends Person {
 
-    public Owner(String firstName, String lastName) {
+    private Long id;
+
+    public Owner(String firstName, String lastName, Long id) {
         super(firstName, lastName);
+        this.id = id;
     }
+
 }
